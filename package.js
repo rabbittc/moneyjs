@@ -2,7 +2,7 @@ Package.describe({
     name: 'theara:moneyjs',
     version: '0.0.1',
     // Brief, one-line summary of the package.
-    summary: 'Simple and tiny JavaScript library for realtime currency conversion and exchange rate calculation, from any currency, to any currency.',
+    summary: 'Simple and tiny JavaScript library for realtime currency conversion and exchange.',
     // URL to the Git repository containing the source code for this package.
     git: 'https://github.com/rabbittc/moneyjs.git',
     // By default, Meteor will default to using README.md for documentation.
