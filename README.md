@@ -8,10 +8,12 @@ Designed for seamless integration with the **[Open Exchange Rates API](https://o
 
 Visit the plugin homepage for demos and documentation: **http://openexchangerates.github.io/money.js/**
 
-
-## Quick Examples:
-
-```javascript
+### Install
+```js
+meteor add theara:moneyjs
+```
+### Quick Examples
+```js
 // Simple syntax:
 fx.convert(1000, {from: "GBP", to: "HKD"});
 
@@ -28,3 +30,8 @@ fx(5318008).convert();
 var fx = require('money');
 require(["money"], function(fx) { /* ... */ });
 ```
+### Changelog
+- v 0.0.2 (2014-04-22)
+    - update readme
+- v 0.0.1 (2014-04-21)
+    - init
